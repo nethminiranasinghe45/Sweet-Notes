@@ -1,50 +1,26 @@
-# Welcome to your Expo app 👋
+Since you are combining your React Native frontend and PHP backend into one repository, you need a README that looks professional enough for companies like Pearson or OrangeHRM.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Here is a high-quality README.md template tailored specifically to your SweetNotes project structure.
 
-## Get started
+SweetNotes: Full-Stack Note Management App
+SweetNotes is a cross-platform mobile application designed for seamless note-taking. It features a modern React Native frontend and a robust PHP REST API backend, demonstrating a full-stack architectural approach to mobile development.
 
-1. Install dependencies
+📱 Features
+User Authentication: Secure login and registration flow.
 
-   ```bash
-   npm install
-   ```
+Real-time CRUD: Create, read, update, and delete notes.
 
-2. Start the app
+Modern UI: Built with Expo Router and custom themed components.
 
-   ```bash
-   npx expo start
-   ```
+Cloud Sync: Notes are stored in a MySQL database via a PHP backend.
 
-In the output, you'll find options to open the app in a
+Theme Support: Automatically adapts to Light and Dark mode.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🛠️ Tech Stack
+Frontend: React Native (Expo), TypeScript
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Backend: PHP (Vanilla)
 
-## Get a fresh project
+Database: MySQL
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Navigation: Expo Router (File-based navigation)
